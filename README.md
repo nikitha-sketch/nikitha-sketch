@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Nikitha Reddy</h1>
+<h1 align="center">Hi 👋, I'm Nikitha Gaddam
 <h3 align="center">A passionate Full Stack developer from India</h3>
 <img align="right" src="https://img.freepik.com/free-vector/female-programmer-working-computer-night_107791-19637.jpg">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nikithareddy&label=Profile%20views&color=0e75b6&style=flat" alt="nikithareddy" /> </p>

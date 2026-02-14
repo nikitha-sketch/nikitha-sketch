@@ -1,6 +1,6 @@
 class Solution {
     public double champagneTower(int poured, int query_row, int query_glass) {
-        double tower[][]=new double[102][102];//constraint
+        double tower[][]=new double[query_row+2][query_row+2];//constraint
         tower[0][0]=(double)poured;
         for(int r=0;r<=query_row;r++){
             for(int c=0;c<=r;c++){

@@ -19,7 +19,7 @@ class Node {
 
 class Solution {
     public List<Integer> preorder(Node root) {
-        List<Integer>list=new ArrayList<>();
+       /* List<Integer>list=new ArrayList<>();
         preorderHelper(root,list);
         return list;
     }
@@ -31,5 +31,18 @@ class Solution {
                 preorderHelper(child,list);
             }
         }
+    }*/
+        List<Integer>list=new ArrayList<>();
+        if(root==null)return list;
+        Stack<Node>st=new Stack<>();
+        st.push(root);
+        while(!st.isEmpty()){
+            Node index=st.pop();
+            list.add(index.val);
+            for(int i=index.children.size()-1;i>=0;i--){
+                st.push(index.children.get(i));
+            }
+        }
+        return list;
     }
 }
